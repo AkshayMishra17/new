@@ -1,0 +1,88 @@
+baseURL: "https://arkalim.netlify.app"
+languageCode: en-us
+title: AkshayMishra
+theme: PaperMod
+
+menu:
+  main:
+    - identifier: home
+      name: Home
+      url: /
+      weight: 10
+    - identifier: projects
+      name: Projects
+      url: /projects
+      weight: 20
+    - identifier: about
+      name: About
+      url: /about
+      weight: 40
+    - identifier: search
+      name: Search
+      url: /search
+      weight: 30
+    - identifier: contact
+      name: Contact
+      url: /contact
+      weight: 50
+    
+
+params:
+  showToc: true
+  TocOpen: false
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  hideMeta: false
+
+
+  env: production
+
+  profileMode:
+    enabled: true
+    title: "Akshay Mishra"
+    subtitle: Hi 👋 I'm Akshay, a tech enthusiast who loves solving complex problems.I am a passionate Front-End Developer specializing in creating responsive and user-friendly web applications using modern technologies like ReactJS,Bootstrap etc. With a strong grasp of Data Structures and Algorithms (DSA), I am committed to delivering seamless user experiences and innovative solutions.
+
+ 
+    imageUrl: "home/Akshay.JPG.JPG"
+    imageWidth: 220
+    imageHeight: 220
+    url: ""
+
+  
+  hideDescriptionInList: false
+
+  
+  cover:
+    hiddenInList: false # hide on list pages and home
+    hiddenInSingle: false # hide on single page
+
+  socialIcons:
+    - name: "email"
+      url: "mailto:mishraakshay263@gmail.com"
+    - name: "linkedin"
+      url: "https://www.linkedin.com/in/akshay-mishra-18b7b72b6"
+    - name: "github"
+      url: "https://github.com/AkshayMishra17"
+
+  # text search
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+
+# for search using Fuse.js
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+# allow HTML in MD
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
