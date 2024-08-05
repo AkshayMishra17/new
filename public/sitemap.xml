@@ -2,24 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/projects/aakriti/</loc>
+    <loc>https://AkshayMishra17.github.io/portfolio-using-HUGO/</loc>
+    <lastmod>2024-08-05T12:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/projects/news/</loc>
+    <loc>https://AkshayMishra17.github.io/portfolio-using-HUGO/projects/</loc>
+    <lastmod>2024-08-05T12:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/projects/spacex/</loc>
+    <loc>https://AkshayMishra17.github.io/portfolio-using-HUGO/about/</loc>
   </url><url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>https://AkshayMishra17.github.io/portfolio-using-HUGO/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://AkshayMishra17.github.io/portfolio-using-HUGO/contact/</loc>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://AkshayMishra17.github.io/portfolio-using-HUGO/search/</loc>
   </url><url>
-    <loc>http://localhost:1313/contact/</loc>
-  </url><url>
-    <loc>http://localhost:1313/projects/</loc>
-  </url><url>
-    <loc>http://localhost:1313/search/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://AkshayMishra17.github.io/portfolio-using-HUGO/tags/</loc>
   </url>
 </urlset>
