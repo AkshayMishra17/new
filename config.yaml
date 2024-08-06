@@ -1,6 +1,5 @@
 baseURL: "https://akshaymishra17.github.io/portfolio-using-HUGO/"
-relativeURLs: true
-canonifyURLs: true
+
 languageCode: en-us
 title: AkshayMishra
 theme: PaperMod
