@@ -1,4 +1,4 @@
-baseURL: "https://AkshayMishra17.github.io/portfolio-using-HUGO/"
+baseURL: "https://its-aportfolio.netlify.app/"
 relativeURLs: true
 canonifyURLs: true
 languageCode: en-us
